@@ -1,0 +1,25 @@
+input{
+    margin-bottom: .5rem;
+    margin-top: .3rem;
+}
+a{
+    text-decoration: none;
+    color:#0dcaf0 ;
+}
+
+.btn-outline-info:hover a{
+    color: #fff;
+}
+.inner{
+    width: 75%;
+    margin: 0px auto;
+}
+
+@media all and (max-width : 750px){
+    .inner{
+        width: 100%;
+        margin: 0px 0px;
+    }
+}
+
+

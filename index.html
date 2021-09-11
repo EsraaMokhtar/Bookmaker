@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section class=" container m-5 p-3">
+        <h2 class=" text-muted text-capitalize">bookmarker</h2>
+        <hr>
+        <form class=" m-4 p-5 bg-light text-capitalize">
+            <div class=" inner text-center">
+                <h1>bookmarker your favorite sites</h1>
+                <label>site name</label>
+                <input type="text" id="bookName" class=" form-control" placeholder="bookmark name">
+                <label>site URL</label>
+                <input type="text" id="siteURL" class=" form-control" placeholder="website URL">
+                <button onclick="addSite()" class="btn btn-primary submit">submit</button>
+            </div>
+        </form>
+        <hr>
+
+        <table class=" table container text-center">
+            <!-- <thead>
+                <tr>
+                    <th>index :</th>
+                    <th>site name :</th>
+                    <th>site URL :</th>
+                    <th>visit :</th>
+                    <th>Delete :</th>
+                </tr>
+            </thead> -->
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+        <p class="text-muted">&copy; 2021 Bookmarker lnc.</p>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
